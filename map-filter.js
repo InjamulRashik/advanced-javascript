@@ -1,3 +1,8 @@
+// **Quick Facts
+// ** Map returns Array
+// ** Filter returns Array
+// ** Find returns Array
+
 const numbers = [3, 4, 5, 6, 7, 8];
 // // const output = [];
 // // for (let i = 0; i < numbers.length; i++) {
