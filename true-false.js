@@ -1,4 +1,5 @@
 // Falsies
+// false
 // 0
 // ""
 // undefined
@@ -6,7 +7,7 @@
 // NaN
 
 // Truthy
-// "0"," ",[]
+// "0"," ",[] , "false"
 let name = null;
 console.log(name);
 if (name) {
