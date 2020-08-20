@@ -1,7 +1,7 @@
 // **Quick Facts
 // ** Map returns Array
 // ** Filter returns Array
-// ** Find returns Array
+// ** Find returns only 1st Matched Element of an Array
 
 const numbers = [3, 4, 5, 6, 7, 8];
 // // const output = [];
@@ -21,8 +21,8 @@ const numbers = [3, 4, 5, 6, 7, 8];
 
 // //console.log(result);
 
-const bigger = numbers.filter(x => x > 5); // filter shows/returns an array
+const bigger = numbers.filter((x) => x > 5); // filter shows/returns an array
 
-const biggerFind = numbers.find(x => x > 5); // find shows/returns an element of an array
+const biggerFind = numbers.find((x) => x > 5); // find shows/returns an element of an array
 
 console.log(biggerFind);
